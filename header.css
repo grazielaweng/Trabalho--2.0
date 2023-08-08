@@ -62,8 +62,30 @@ cx-texto{
 
 .orientacao,.orientacao3{
     display: none;
+
 }
 }
-@media screen and () {
-    
+@media screen and (min-width:1024px){
+    .container__frase{
+    font-size: 30px;
+    display: inline-block;
+}
+
+.container__frase{
+    font-weight: 400;
+    padding-left: 5em;
+}
+.orientacao{
+    display: block;
+    font-size: 30px;
+    color: var(--lilas);
+    border: 3px solid greenyellow;
+    margin-top: 3em;
+    padding: 1em;
+
+}
+.orientacao2, .orientacao3{
+    display: none;
+}
+
 }
