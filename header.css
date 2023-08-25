@@ -67,7 +67,7 @@
 }
 }
 
-@media screen and (min-width:428px){
+@media screen and (min-width:1024px){
     .container__frase{
     font-size: 30px;
     display: inline-block;
